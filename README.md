@@ -4,12 +4,6 @@ A classic Pong game built using **HTML**, **CSS**, and **JavaScript**. This vers
 
 ---
 
-## 📸 Screenshots
-
-![Pong Game Screenshot](https://user-images.githubusercontent.com/your-github-id/your-screenshot.png) <!-- Optional: Update with your actual screenshot URL -->
-
----
-
 ## 🚀 Features
 
 - 🎮 Simple player vs AI gameplay
