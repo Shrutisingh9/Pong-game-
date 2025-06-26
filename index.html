@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Simple Pong Game</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="overlay">
+    <div id="start-box">
+      <h2>Pong Game</h2>
+      <label for="maxScore">Play up to how many points?</label><br />
+      <input type="number" id="maxScore" min="1" value="5" />
+      <br />
+      <button id="startGameBtn">Start Game</button>
+    </div>
+  </div>
+
+  <div id="pong-container" style="display: none;">
+    <canvas id="pong" width="800" height="500"></canvas>
+  </div>
+
+  <script src="pong.js"></script>
+</body>
+</html>

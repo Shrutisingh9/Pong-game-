@@ -1,0 +1,60 @@
+body {
+  background: #181818;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#pong-container {
+  box-shadow: 0 0 16px #666;
+  border-radius: 8px;
+  background: #222;
+  padding: 20px;
+}
+
+canvas#pong {
+  display: block;
+  background: #111;
+  border: 2px solid #fff;
+  border-radius: 8px;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  color: #fff;
+}
+
+#start-box {
+  background: #222;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #00f0ff;
+  text-align: center;
+}
+
+#start-box input {
+  padding: 8px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100px;
+  text-align: center;
+}
+
+#start-box button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
